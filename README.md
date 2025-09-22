@@ -28,5 +28,5 @@ Este proyecto en **Java** implementa un sistema de trazabilidad para empresas, s
 >    **Nota importante:**  
 > Repositorio de Github para el trabajo práctico solicitado de Traza 1            
 > Materia: Desarrollo de Software 3k10 - 2025  
-> Alumno: Gabriel Villalobos
+> Alumno: Gabriel Villalobos 
 
