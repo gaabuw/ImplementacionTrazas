@@ -1,0 +1,22 @@
+package entidades;
+
+import lombok.*;
+import lombok.experimental.SuperBuilder;
+
+import java.util.HashSet;
+import java.util.Set;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+@ToString
+@SuperBuilder
+public class ArticuloManufacturado extends Articulo{
+    private String descripcion;
+    private Integer tiempoEstimadoMinutos;
+    private String preparacion;
+
+    @Builder.Default
+    private Set<ArticuloManufacturadoDetalle> articuloManufacturadoDetalles = new HashSet<>();
+}
